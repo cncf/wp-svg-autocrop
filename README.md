@@ -13,7 +13,7 @@ We reject SVGs that embed a PNG or JPG. These images are much bigger than necess
 
 # Why Can't My SVG Include text or tspan Tags?
 
-SVGs need to not rely on external fonts so that they will render correctly in any web browser, whether or not the correct fonts are installed. That means that all embedded text and tspan elements need to be converted to objects. Please follow these [directons](https://github.com/cncf/landscapeapp#svgs-cant-include-text) to convert your SVG if you get this error or, alternatively find a [valid](#how-can-i-get-a-valid-svg) SVG.
+SVGs need to not rely on external fonts so that they will render correctly in any web browser, whether or not the correct fonts are installed. That means that all embedded text and tspan elements need to be converted to objects. Please follow these [directions](https://github.com/cncf/landscapeapp#svgs-cant-include-text) to convert your SVG if you get this error or, alternatively find a [valid](#how-can-i-get-a-valid-svg) SVG.
 
 # Why Shouldn't I Autotrace to Get an SVG?
 
@@ -21,4 +21,4 @@ Do *not* try to convert PNGs or JPGs to SVGs. You can't automatically go from a 
 
 # How Can I Get a Valid SVG?
 
-If you can't find a valid SVG, you can get an original AI or EPS version of the logo and convert it to an SVG at [cloudconvert.com](https://cloudconvert.com). Alternatively, you can have a graphic designer recreate a logo when a high resolution image is unavailable.
+If you can't find a valid SVG, you can get an original AI or EPS version of the logo and convert it to an SVG at [cloudconvert.com](https://cloudconvert.com). Alternatively, you can have a graphic designer recreate a logo when a high-resolution image is unavailable.
