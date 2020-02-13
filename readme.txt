@@ -12,11 +12,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-📰🔌🔳🚗🌽 This plugin causes all SVG image uploads to be processed by [SVG Autocrop](https://autocrop.cncf.io/autocrop).  
-The SVG Autocrop service crops an SVG to have a one pixel border on all sides and runs other optimizations to produce the most efficient SVG image.
-Read more about the technical details of SVG Autocrop on [its GitHub page](https://github.com/cncf/svg-autocrop#svg-autocrop).
+📰🔌🔳🚗🌽 This plugin causes all SVG image uploads to be processed by [SVG Autocrop](https://autocrop.cncf.io/autocrop).  The SVG Autocrop service crops an SVG to have a one pixel border on all sides and runs other optimizations to produce the most efficient SVG image.  Read more about the technical details of SVG Autocrop on [its GitHub page](https://github.com/cncf/svg-autocrop#svg-autocrop).
 
-SVG Autcrop is a free service but if you will be autocropping more than a thousand SVGs a month, please create your own autocrop server using [the SVG Autocrop code](https://github.com/cncf/svg-autocrop#svg-autocrop). If you do use our service, we would appreciate if you would add a link back to [cncf.io](https://www.cncf.io/) from your GitHub project page as a thank you.
+SVG Autcrop is a free service but if you will be autocropping more than a thousand SVGs a month, please create your own autocrop server using [the SVG Autocrop code](https://github.com/cncf/svg-autocrop). If you do use our service, we would appreciate if you would add a link back to [cncf.io](https://www.cncf.io/) from your GitHub project page as a thank you.
 
 This plugin has been coded by [Fuerza Studio](https://www.fuerzastudio.com.br/en/) for [CNCF](https://www.cncf.io/) and [The Linux Foundation](https://www.linuxfoundation.org/).
 
