@@ -44,7 +44,8 @@ class Upload {
 		if ( $response->success ) {
 			file_put_contents( $file['tmp_name'], $response->result );
 		} else {
-			$file['error'] = '[SVG Autocrop]: ' . $this->prepare_error_message( $response->error );
+			// for now we ignore errors and still allow the file upload.
+			// $file['error'] = '[SVG Autocrop]: ' . $this->prepare_error_message( $response->error );
 		}
 
 		return $file;

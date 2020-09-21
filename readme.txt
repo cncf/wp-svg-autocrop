@@ -2,7 +2,7 @@
 Contributors: fuerzastudio, cjyabraham
 Tags: SVG
 Requires at least: 5.0
-Tested up to: 5.3.2
+Tested up to: 5.5.1
 Stable tag: trunk
 Requires PHP: 5.6.20
 License: GPLv2
@@ -28,6 +28,9 @@ Note: The plugin requires also having the [Safe SVG plugin](https://wordpress.or
 1. Upload an SVG file to have it autocropped
 
 == Changelog ==
+
+= 0.1.1 =
+* Disabled error reporting to allow SVG uploads to proceed even when autocrop process fails
 
 = 0.1.0 =
 * First release
