@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SVG Autocrop
  * Description: Optimizes SVG files and trims them to have just a 1 pixel border, among other things.
- * Version:     0.1.1
+ * Version:     0.1.2
  * Author:      fuerzastudio
  * Text Domain: wp-svg-autocrop
  * Domain Path: /languages
