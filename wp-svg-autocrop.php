@@ -37,7 +37,7 @@ function wp_svg_autocrop_initialize() {
  * @return void
  */
 function wp_svg_autocrop_verify_dependencies() {
-	$is_active_save_svg = class_exists( 'safe_svg' );
+	$is_active_save_svg = class_exists( '\SafeSvg\safe_svg' );
 
 	if ( $is_active_save_svg ) {
 		wp_svg_autocrop_initialize();
